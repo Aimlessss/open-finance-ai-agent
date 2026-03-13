@@ -73,7 +73,7 @@ function chunkDocument(fileName) {
   const chunks = createChunks(doc);
 
   const outputPath = path.resolve(
-    "../../data/chunks/" + fileName.replace(".json", "-chunks.json")
+    "../../../data/chunks/" + fileName.replace(".json", "-chunks.json")
   );
 
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });

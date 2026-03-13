@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const chunkDir = "../../data/chunks";
+const chunkDir = "../../../data/chunks";
 
 const files = fs.readdirSync(chunkDir);
 
