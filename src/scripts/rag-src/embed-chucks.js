@@ -9,7 +9,7 @@ const genAI = new GoogleGenerativeAI(key);
 // Try the most modern stable identifier
 const modelName = "models/gemini-embedding-001"; 
 
-const chunksPath = path.resolve("../../data/all-chunks.json");
+const chunksPath = path.resolve("../../../data/all-chunks.json");
 const chunks = JSON.parse(fs.readFileSync(chunksPath, "utf-8"));
 
 async function embedChunks() {
@@ -54,7 +54,7 @@ async function embedChunks() {
     }
   }
 
-  const outputPath = path.resolve("../../data/embeddings.json");
+  const outputPath = path.resolve("../../../data/embeddings.json");
   fs.writeFileSync(outputPath, JSON.stringify(chunks, null, 2));
   console.log(`\nDone! Saved to ${outputPath}`);
 }
