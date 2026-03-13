@@ -1,0 +1,1 @@
+export const key = "i aint fool now";

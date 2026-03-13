@@ -1,0 +1,536 @@
+{
+  "title": "API Hub Domains & DNS",
+  "sections": [
+    {
+      "heading": "API Hub Domains & DNS",
+      "blocks": []
+    },
+    {
+      "heading": "1.\n                                                                                                                Introduction",
+      "blocks": []
+    },
+    {
+      "heading": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "blocks": [
+        {
+          "type": "table",
+          "content": [
+            [
+              "Environment",
+              "Domain",
+              "Example DNS Name"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Environment"
+        },
+        {
+          "type": "text",
+          "content": "Domain"
+        },
+        {
+          "type": "text",
+          "content": "Example DNS Name"
+        },
+        {
+          "type": "table",
+          "content": [
+            [
+              "Environment",
+              "Domain",
+              "Example DNS Name"
+            ],
+            [
+              "Production",
+              "*.[LFI Code].apihub.openfinance.ae",
+              "*.xxxxyy.apihub.openfinance.ae"
+            ],
+            [
+              "Pre-Production",
+              "*.[LIF Code].preprod.apihub.openfinance.ae",
+              "*.xxxxyy.preprod.apihub.openfinance.ae"
+            ],
+            [
+              "Sandbox",
+              "*.altareq1.apihub.openfinance.ae",
+              ""
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Environment"
+        },
+        {
+          "type": "text",
+          "content": "Domain"
+        },
+        {
+          "type": "text",
+          "content": "Example DNS Name"
+        },
+        {
+          "type": "text",
+          "content": "Production"
+        },
+        {
+          "type": "text",
+          "content": "*.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "*.xxxxyy.apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "Pre-Production"
+        },
+        {
+          "type": "text",
+          "content": "*.[LIF Code].preprod.apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "*.xxxxyy.preprod.apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "Sandbox"
+        },
+        {
+          "type": "text",
+          "content": "*.altareq1.apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "heading": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The API Hub\n                                                                                                            will make\n                                                                                                            the\n                                                                                                            following\n                                                                                                            domains\n                                                                                                            available\n                                                                                                            for\n                                                                                                            Pre-production\n                                                                                                            and\n                                                                                                            Production."
+        },
+        {
+          "type": "text",
+          "content": "Pre-production\n                                                                                                            environments\n                                                                                                            are not\n                                                                                                            accessible\n                                                                                                            to TPPs and\n                                                                                                            should only\n                                                                                                            be used for\n                                                                                                            testing\n                                                                                                            between the\n                                                                                                            API Hub and\n                                                                                                            the LFI."
+        },
+        {
+          "type": "table",
+          "content": [
+            [
+              "Server Name",
+              "Example DNS Name",
+              "Description",
+              "Security",
+              "Provider",
+              "Consumer"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Server Name"
+        },
+        {
+          "type": "text",
+          "content": "Example DNS Name"
+        },
+        {
+          "type": "text",
+          "content": "Description"
+        },
+        {
+          "type": "text",
+          "content": "Security"
+        },
+        {
+          "type": "text",
+          "content": "Provider"
+        },
+        {
+          "type": "text",
+          "content": "Consumer"
+        },
+        {
+          "type": "table",
+          "content": [
+            [
+              "Server Name",
+              "Example DNS Name",
+              "Description",
+              "Security",
+              "Provider",
+              "Consumer"
+            ],
+            [
+              "admin",
+              "admin.[LFI Code].apihub.openfinance.ae",
+              "LFI\n                                                                                                                            API\n                                                                                                                            Hub\n                                                                                                                            Admin\n                                                                                                                            portal\n                                                                                                                        \n                                                                                                                        \n                                                                                                                        \n                                                                                                                            \n                                                                                                                                \n                                                                                                                                \n                                                                                                                                \n                                                                                                                                \n                                                                                                                                    Open \n                                                                                                                                    \n                                                                                                                                        \n                                                                                                                                            \n                                                                                                                                                \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                                \n                                                                                                                                            \n                                                                                                                                        \n                                                                                                                                    \n                                                                                                                                    \n                                                                                                                                        !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"26431b17-31b1-4e69-8fd4-14f370349813-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/26431b17-31b1-4e69-8fd4-14f370349813/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/26431b17-31b1-4e69-8fd4-14f370349813/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/26431b17-31b1-4e69-8fd4-14f370349813/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6});",
+              "TLS, SSO",
+              "API Hub",
+              "LFI"
+            ],
+            [
+              "hh",
+              "hh.[LFI Code].apihub.openfinance.ae",
+              "Headless Heimdall APIOpen !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"508bdf29-407a-41b6-99bb-15719f095bda-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/508bdf29-407a-41b6-99bb-15719f095bda/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/508bdf29-407a-41b6-99bb-15719f095bda/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/508bdf29-407a-41b6-99bb-15719f095bda/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6});",
+              "MTLSJWT Auth (optional)",
+              "API Hub",
+              "LFI"
+            ],
+            [
+              "cm",
+              "cm.[LFI Code].apihub.openfinance.ae",
+              "Consent Manager API Open !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"f6b42856-7b98-4b96-a105-70880ea3507d-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/f6b42856-7b98-4b96-a105-70880ea3507d/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/f6b42856-7b98-4b96-a105-70880ea3507d/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/f6b42856-7b98-4b96-a105-70880ea3507d/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6});",
+              "MTLSJWT Auth (optional)",
+              "API Hub",
+              "LFI"
+            ],
+            [
+              "auth1",
+              "auth1.[LFI Code].apihub.openfinance.ae",
+              "OpenID connect discovery serverOpen !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"5f0bce16-e56a-4490-be27-d573c24de302-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/5f0bce16-e56a-4490-be27-d573c24de302/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/5f0bce16-e56a-4490-be27-d573c24de302/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/5f0bce16-e56a-4490-be27-d573c24de302/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6});",
+              "TLS",
+              "API Hub",
+              "TPPs"
+            ],
+            [
+              "rs1",
+              "rs1.[LFI Code].apihub.openfinance.ae",
+              "Resource serverOpen !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"6040a312-f810-4b82-af57-7582462e5380-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/6040a312-f810-4b82-af57-7582462e5380/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/6040a312-f810-4b82-af57-7582462e5380/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/6040a312-f810-4b82-af57-7582462e5380/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6});",
+              "MTLS",
+              "API Hub",
+              "TPPs"
+            ],
+            [
+              "as1",
+              "as1.[LFI Code].apihub.openfinance.ae",
+              "Authorization server Open !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"94e7cffe-4462-4ded-9b80-02f102aaeb19-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/94e7cffe-4462-4ded-9b80-02f102aaeb19/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/94e7cffe-4462-4ded-9b80-02f102aaeb19/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/94e7cffe-4462-4ded-9b80-02f102aaeb19/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6});",
+              "MTLS",
+              "API Hub",
+              "TPPs"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Server Name"
+        },
+        {
+          "type": "text",
+          "content": "Example DNS Name"
+        },
+        {
+          "type": "text",
+          "content": "Description"
+        },
+        {
+          "type": "text",
+          "content": "Security"
+        },
+        {
+          "type": "text",
+          "content": "Provider"
+        },
+        {
+          "type": "text",
+          "content": "Consumer"
+        },
+        {
+          "type": "text",
+          "content": "admin"
+        },
+        {
+          "type": "text",
+          "content": "admin.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "LFI\n                                                                                                                            API\n                                                                                                                            Hub\n                                                                                                                            Admin\n                                                                                                                            portal"
+        },
+        {
+          "type": "text",
+          "content": "TLS, SSO"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "hh"
+        },
+        {
+          "type": "text",
+          "content": "hh.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "Headless Heimdall API"
+        },
+        {
+          "type": "text",
+          "content": "MTLSJWT Auth (optional)"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "cm"
+        },
+        {
+          "type": "text",
+          "content": "cm.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "Consent Manager API"
+        },
+        {
+          "type": "text",
+          "content": "MTLSJWT Auth (optional)"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "auth1"
+        },
+        {
+          "type": "text",
+          "content": "auth1.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "OpenID connect discovery server"
+        },
+        {
+          "type": "text",
+          "content": "TLS"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "TPPs"
+        },
+        {
+          "type": "text",
+          "content": "rs1"
+        },
+        {
+          "type": "text",
+          "content": "rs1.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": "Resource server"
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "TPPs"
+        },
+        {
+          "type": "text",
+          "content": "as1"
+        },
+        {
+          "type": "text",
+          "content": "as1.[LFI Code].apihub.openfinance.ae"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "Authorization server"
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "TPPs"
+        }
+      ]
+    },
+    {
+      "heading": "4. LFI Service examples",
+      "blocks": [
+        {
+          "type": "table",
+          "content": [
+            [
+              "Example DNS Name",
+              "Description",
+              "Security",
+              "Provider",
+              "Consumer"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Example DNS Name"
+        },
+        {
+          "type": "text",
+          "content": "Description"
+        },
+        {
+          "type": "text",
+          "content": "Security"
+        },
+        {
+          "type": "text",
+          "content": "Provider"
+        },
+        {
+          "type": "text",
+          "content": "Consumer"
+        },
+        {
+          "type": "table",
+          "content": [
+            [
+              "Example DNS Name",
+              "Description",
+              "Security",
+              "Provider",
+              "Consumer"
+            ],
+            [
+              "ozoneconnect.lfi-domain.ae",
+              "Ozone Connect ServerThis domain will be collected via the API Hub questionnaires",
+              "MTLSJWT Auth (optional)",
+              "LFI",
+              "API Hub"
+            ],
+            [
+              "auth-redirect.lfi-domain.ae",
+              "LFI Authorisation URLTPPs will send users here to start the consent authorization journey. This domain will be collected via the API Hub questionnaires",
+              "N/A",
+              "LFI",
+              "TPP"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Example DNS Name"
+        },
+        {
+          "type": "text",
+          "content": "Description"
+        },
+        {
+          "type": "text",
+          "content": "Security"
+        },
+        {
+          "type": "text",
+          "content": "Provider"
+        },
+        {
+          "type": "text",
+          "content": "Consumer"
+        },
+        {
+          "type": "text",
+          "content": "ozoneconnect.lfi-domain.ae"
+        },
+        {
+          "type": "text",
+          "content": "Ozone Connect ServerThis domain will be collected via the API Hub questionnaires"
+        },
+        {
+          "type": "text",
+          "content": "MTLSJWT Auth (optional)"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "auth-redirect.lfi-domain.ae"
+        },
+        {
+          "type": "text",
+          "content": "LFI Authorisation URLTPPs will send users here to start the consent authorization journey. This domain will be collected via the API Hub questionnaires"
+        },
+        {
+          "type": "text",
+          "content": "N/A"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "TPP"
+        }
+      ]
+    },
+    {
+      "heading": "5. Network Diagram",
+      "blocks": [
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "© Ozone Financial Technology Limited 2024-2025\nOzone Non Commercial Software EULA"
+        }
+      ]
+    }
+  ]
+}

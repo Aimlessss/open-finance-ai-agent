@@ -1,0 +1,990 @@
+{
+  "title": "Integration Overview",
+  "sections": [
+    {
+      "heading": "Integration Overview",
+      "blocks": []
+    },
+    {
+      "heading": "1.\n                                                                                                                Introduction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This\n                                                                                                            document\n                                                                                                            describes\n                                                                                                            the\n                                                                                                            different\n                                                                                                            components\n                                                                                                            involved in\n                                                                                                            delivering\n                                                                                                            the\n                                                                                                            integration\n                                                                                                            between the\n                                                                                                            API Hub and\n                                                                                                            a LFI. The\n                                                                                                            goal is to\n                                                                                                            give a clear\n                                                                                                            picture of\n                                                                                                            which\n                                                                                                            components\n                                                                                                            exist, how\n                                                                                                            they are\n                                                                                                            used and\n                                                                                                            what is\n                                                                                                            expected to\n                                                                                                            be delivered\n                                                                                                            by each\n                                                                                                            party."
+        }
+      ]
+    },
+    {
+      "heading": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "As defined\n                                                                                                            in the CBUAE\n                                                                                                            Open Finance\n                                                                                                            Standards,\n                                                                                                            the\n                                                                                                            Authorisation\n                                                                                                            flow is the\n                                                                                                            process that\n                                                                                                            a User\n                                                                                                            undergoes to\n                                                                                                            authorise\n                                                                                                            consent for\n                                                                                                            a TPP to\n                                                                                                            access\n                                                                                                            account(s)\n                                                                                                            held at an\n                                                                                                            LFI."
+        },
+        {
+          "type": "text",
+          "content": "A simple\n                                                                                                            representation\n                                                                                                            of the\n                                                                                                            authorisation\n                                                                                                            flow is as\n                                                                                                            follows:"
+        },
+        {
+          "type": "text",
+          "content": "A\n                                                                                                                    User\n                                                                                                                    will\n                                                                                                                    initiate\n                                                                                                                    a\n                                                                                                                    consent\n                                                                                                                    from\n                                                                                                                    a\n                                                                                                                    TPP's\n                                                                                                                    mobile\n                                                                                                                    or\n                                                                                                                    web\n                                                                                                                    app."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                    User\n                                                                                                                    will\n                                                                                                                    be\n                                                                                                                    redirected\n                                                                                                                    to\n                                                                                                                    the\n                                                                                                                    LFI's\n                                                                                                                    mobile\n                                                                                                                    or\n                                                                                                                    web\n                                                                                                                    app\n                                                                                                                    to\n                                                                                                                    authorise\n                                                                                                                    the\n                                                                                                                    consent."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            LFI\n                                                                                                                            needs\n                                                                                                                            to\n                                                                                                                            adapt\n                                                                                                                            their\n                                                                                                                            mobile\n                                                                                                                            and/or\n                                                                                                                            web\n                                                                                                                            app\n                                                                                                                            to\n                                                                                                                            receive\n                                                                                                                            the\n                                                                                                                            redirect\n                                                                                                                            and\n                                                                                                                            parameters\n                                                                                                                            passed\n                                                                                                                            over\n                                                                                                                            from\n                                                                                                                            the\n                                                                                                                            TPP."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            LFI\n                                                                                                                            will\n                                                                                                                            use\n                                                                                                                            the\n                                                                                                                            API\n                                                                                                                            Hub\n                                                                                                                            Authorisation\n                                                                                                                            Server\n                                                                                                                            to\n                                                                                                                            verify\n                                                                                                                            the\n                                                                                                                            request\n                                                                                                                            and\n                                                                                                                            the\n                                                                                                                            parameters."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                    User\n                                                                                                                    will\n                                                                                                                    go\n                                                                                                                    through\n                                                                                                                    SCA\n                                                                                                                    (Strong\n                                                                                                                    Customer\n                                                                                                                    Authentication),\n                                                                                                                    review\n                                                                                                                    the\n                                                                                                                    consent,\n                                                                                                                    and\n                                                                                                                    authorise/reject\n                                                                                                                    it."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            LFI\n                                                                                                                            needs\n                                                                                                                            to\n                                                                                                                            adapt\n                                                                                                                            their\n                                                                                                                            mobile\n                                                                                                                            and/or\n                                                                                                                            web\n                                                                                                                            app\n                                                                                                                            to\n                                                                                                                            display\n                                                                                                                            the\n                                                                                                                            consent\n                                                                                                                            authorisation\n                                                                                                                            screens."
+        },
+        {
+          "type": "text",
+          "content": "Each\n                                                                                                                            consent\n                                                                                                                            type\n                                                                                                                            will\n                                                                                                                            have\n                                                                                                                            different\n                                                                                                                            information\n                                                                                                                            to\n                                                                                                                            display\n                                                                                                                            to\n                                                                                                                            the\n                                                                                                                            user."
+        },
+        {
+          "type": "text",
+          "content": "All\n                                                                                                                            screens\n                                                                                                                            and\n                                                                                                                            the\n                                                                                                                            required\n                                                                                                                            UX\n                                                                                                                            guideline\n                                                                                                                            will\n                                                                                                                            be\n                                                                                                                            provided\n                                                                                                                            as\n                                                                                                                            part\n                                                                                                                            of\n                                                                                                                            the\n                                                                                                                            Open\n                                                                                                                            Finance\n                                                                                                                            Standards."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            LFI\n                                                                                                                            will\n                                                                                                                            use\n                                                                                                                            the\n                                                                                                                            Consent\n                                                                                                                            Manager\n                                                                                                                            and\n                                                                                                                            the\n                                                                                                                            Authorisation\n                                                                                                                            Server\n                                                                                                                            to\n                                                                                                                            communicate\n                                                                                                                            the\n                                                                                                                            outcome\n                                                                                                                            of\n                                                                                                                            the\n                                                                                                                            consent\n                                                                                                                            authorisation."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            User\n                                                                                                                            will\n                                                                                                                            be\n                                                                                                                            redirected\n                                                                                                                            back\n                                                                                                                            to\n                                                                                                                            the\n                                                                                                                            TPP's\n                                                                                                                            mobile\n                                                                                                                            or\n                                                                                                                            web\n                                                                                                                            app."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            API\n                                                                                                                            Hub\n                                                                                                                            will\n                                                                                                                            generate\n                                                                                                                            the\n                                                                                                                            redirect\n                                                                                                                            url\n                                                                                                                            &\n                                                                                                                            access\n                                                                                                                            token."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                    TPP\n                                                                                                                    will\n                                                                                                                    receive\n                                                                                                                    an\n                                                                                                                    access\n                                                                                                                    token\n                                                                                                                    to\n                                                                                                                    allow\n                                                                                                                    appropriate\n                                                                                                                    actions\n                                                                                                                    under\n                                                                                                                    the\n                                                                                                                    conditions\n                                                                                                                    of\n                                                                                                                    the\n                                                                                                                    consent\n                                                                                                                    on\n                                                                                                                    the\n                                                                                                                    User's\n                                                                                                                    account(s)."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                            Ozone\n                                                                                                                            Connect\n                                                                                                                            API\n                                                                                                                            will\n                                                                                                                            be\n                                                                                                                            responsible\n                                                                                                                            for\n                                                                                                                            serving\n                                                                                                                            data\n                                                                                                                            for\n                                                                                                                            action\n                                                                                                                            service\n                                                                                                                            initiation."
+        },
+        {
+          "type": "text",
+          "content": "For a\n                                                                                                            visualisation\n                                                                                                            of this flow\n                                                                                                            please see\n                                                                                                            this figma\n                                                                                                                presentation"
+        }
+      ]
+    },
+    {
+      "heading": "3. The\n                                                                                                                API Hub",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The API Hub\n                                                                                                            is a fully\n                                                                                                            featured\n                                                                                                            Open API\n                                                                                                            platform,\n                                                                                                            developed\n                                                                                                            and\n                                                                                                            maintained\n                                                                                                            by Ozone,\n                                                                                                            which sits\n                                                                                                            between each\n                                                                                                            LFI’s\n                                                                                                            network and\n                                                                                                            the TPPs. It\n                                                                                                            includes a\n                                                                                                            number of\n                                                                                                            components\n                                                                                                            or modules\n                                                                                                            which work\n                                                                                                            together to\n                                                                                                            take away\n                                                                                                            all the\n                                                                                                            complexity\n                                                                                                            from the\n                                                                                                            LFIs in\n                                                                                                            providing an\n                                                                                                            Open Finance\n                                                                                                            API."
+        }
+      ]
+    },
+    {
+      "heading": "3.1 API\n                                                                                                                Hub\n                                                                                                                Network\n                                                                                                                Diagram",
+      "blocks": [
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "heading": "3.2 Infrastructure",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Each LFI will have two environments that will be integrated with the API Hub, Pre-Production and Production."
+        },
+        {
+          "type": "text",
+          "content": "All two-way traffic between the API Hub and the LFI environments will be secured using MTLS. Certificates will be issued by the OFTF, and Ozone will provide one-on-one guidance throughout this process."
+        }
+      ]
+    },
+    {
+      "heading": "3.3 Role of the API Hub",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The API Hub will:"
+        },
+        {
+          "type": "text",
+          "content": "Provide a single industry sandbox which simulates a single LFI, with rich synthetic data and a postman collection for each API request/response defined in the Open Finance Standard."
+        },
+        {
+          "type": "text",
+          "content": "Provide each LFI with dedicated Pre-Production and Production API gateways accessible to TPPs."
+        },
+        {
+          "type": "text",
+          "content": "Ensure that the externally facing API adheres strictly to the Open Finance Standard, including the FAPI security profile, data model, and API operations for each endpoint."
+        },
+        {
+          "type": "text",
+          "content": "Integrate with the Open Finance Trust Framework (OFTF) to ensure that ONLY licensed TPPs can access the APIs and that they can ONLY access API sets within the scope of their licensed role(s)."
+        },
+        {
+          "type": "text",
+          "content": "Manage the User’s consent, to act as the single source of truth regarding this consent and to ensure that the TPP can only access APIs (for data sharing, service initiation or insurance) within the parameters of this consent."
+        },
+        {
+          "type": "text",
+          "content": "Provide the CBUAE with all required reporting regarding usage, availability and performance."
+        },
+        {
+          "type": "text",
+          "content": "As a result, LFIs are not required to provide an externally facing API, manage TPP identities or permissions, or handle consent parameters for each API request."
+        }
+      ]
+    },
+    {
+      "heading": "3.4 Sequence Diagrams",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The following sequence diagrams explain the interactions between the User, the TPP, the API Hub and the LFI."
+        },
+        {
+          "type": "reference",
+          "text": "Bank Data Sharing",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363033/Bank+Data+Sharing"
+        },
+        {
+          "type": "reference",
+          "text": "Bank Service Initiation - Single Immediate Payment",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363057/Bank+Service+Initiation+-+Single+Immediate+Payment"
+        },
+        {
+          "type": "reference",
+          "text": "Bank Service Initiation - Payment Refund",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363081/Bank+Service+Initiation+-+Payment+Refund"
+        },
+        {
+          "type": "reference",
+          "text": "Bank Service Initiation - Multi-Authorization Journey",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363105/Bank+Service+Initiation+-+Multi-Authorization+Journey"
+        },
+        {
+          "type": "reference",
+          "text": "Insurance Data Sharing",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363129/Insurance+Data+Sharing"
+        },
+        {
+          "type": "reference",
+          "text": "CAAP - User Registration",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363153/CAAP+-+User+Registration"
+        },
+        {
+          "type": "reference",
+          "text": "CAAP - Consent Authorization",
+          "url": "/wiki/spaces/APIHubDocsv8/pages/452363177/CAAP+-+Consent+Authorization"
+        }
+      ]
+    },
+    {
+      "heading": "3.5 Key API Hub Components",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In order to deliver the end to end journey for the User, the following APIs will be deployed."
+        },
+        {
+          "type": "text",
+          "content": "The Authorisation Server and Consent Manager is built, deployed and maintained by Ozone. The consumer of these APIs are the LFIs."
+        },
+        {
+          "type": "text",
+          "content": "The LFI is expected to build, deploy and maintain screens on their mobile and/or web app to support the Consent Authorisation flow."
+        },
+        {
+          "type": "text",
+          "content": "The LFI is expected to build, deploy and maintain the Ozone Connect API for Data Sharing and Service Initiation."
+        },
+        {
+          "type": "table",
+          "content": [
+            [
+              "Component",
+              "Provider",
+              "Consumer",
+              "Interface",
+              "Description",
+              "Connection",
+              "Usage"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Component"
+        },
+        {
+          "type": "text",
+          "content": "Provider"
+        },
+        {
+          "type": "text",
+          "content": "Consumer"
+        },
+        {
+          "type": "text",
+          "content": "Interface"
+        },
+        {
+          "type": "text",
+          "content": "Description"
+        },
+        {
+          "type": "text",
+          "content": "Connection"
+        },
+        {
+          "type": "text",
+          "content": "Usage"
+        },
+        {
+          "type": "table",
+          "content": [
+            [
+              "Component",
+              "Provider",
+              "Consumer",
+              "Interface",
+              "Description",
+              "Connection",
+              "Usage"
+            ],
+            [
+              "Authorisation Server",
+              "API Hub",
+              "LFI",
+              "API",
+              "Swagger specification will be made available.Exposes endpoints to the LFI to support:Consent Authorisation.Access token issuing.",
+              "MTLS",
+              "Authorisation Flow"
+            ],
+            [
+              "Consent Manager",
+              "API Hub",
+              "LFI",
+              "API",
+              "Swagger specification will be made available.TPPs do not connect to the consent manager directly.Exposes endpoints to the LFI to support:Consent Authorisation.Consent management and reporting.",
+              "MTLS",
+              "Authorisation FlowConsent Dashboard"
+            ],
+            [
+              "Ozone Connect",
+              "LFI",
+              "API Hub",
+              "API",
+              "Swagger specification will be made available for Data Sharing, Service Initiation and Insurance.TPPs do not connect to the Ozone Connect API directly.The Ozone Connect API is an interface on top of the LFI core banking system. LFIs will be responsible for the mapping between their core banking system and the Ozone Connect API specification.LFIs only implement the Ozone Connect API endpoints to support their existing offering i.e:Data Sharing: Accounts, Balance, Transactions etc.Service Initiation: Domestic payment, Standing Orders, International Payments  etc.Insurance: Motor insurance quotes.",
+              "MTLS",
+              "Data SharingService InitiationInsurance"
+            ],
+            [
+              "Health Check API APIs",
+              "LFI & API Hub",
+              "LFI & API HUB",
+              "API",
+              "Swagger specification will be made available.These APIs should be implemented by the LFI so that the API Hub can ensure that the institution's Ozone Connect implementation is up and running and verify to MTLS connectivityThe API Hub will publish the Health Check APIs on the Consent Manager so the LFI can ensure the API Hub implementation is up and running and to verify MTLS connectivityIntegration testing and verifications.Health checks.",
+              "MTLS",
+              "Service AvailabilityHealth ChecksIntegration QA"
+            ],
+            [
+              "Consent Event & Action APIs",
+              "LFI",
+              "API HUB",
+              "API",
+              "Swagger specification will be made available.Optional. Used by financial institution to get a notification for updated consent.Optional. Consent augmentation for LFIs to add additional information for some use cases.Optional. Consent validation for LFI to apply additional validation before the consent is created.",
+              "MTLS",
+              "Event notificationsAction calls"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Component"
+        },
+        {
+          "type": "text",
+          "content": "Provider"
+        },
+        {
+          "type": "text",
+          "content": "Consumer"
+        },
+        {
+          "type": "text",
+          "content": "Interface"
+        },
+        {
+          "type": "text",
+          "content": "Description"
+        },
+        {
+          "type": "text",
+          "content": "Connection"
+        },
+        {
+          "type": "text",
+          "content": "Usage"
+        },
+        {
+          "type": "text",
+          "content": "Authorisation Server"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "API"
+        },
+        {
+          "type": "text",
+          "content": "Swagger specification will be made available."
+        },
+        {
+          "type": "text",
+          "content": "Exposes endpoints to the LFI to support:"
+        },
+        {
+          "type": "text",
+          "content": "Consent Authorisation."
+        },
+        {
+          "type": "text",
+          "content": "Access token issuing."
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "Authorisation Flow"
+        },
+        {
+          "type": "text",
+          "content": "Consent Manager"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "API"
+        },
+        {
+          "type": "text",
+          "content": "Swagger specification will be made available."
+        },
+        {
+          "type": "text",
+          "content": "TPPs do not connect to the consent manager directly."
+        },
+        {
+          "type": "text",
+          "content": "Exposes endpoints to the LFI to support:"
+        },
+        {
+          "type": "text",
+          "content": "Consent Authorisation."
+        },
+        {
+          "type": "text",
+          "content": "Consent management and reporting."
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "Authorisation Flow"
+        },
+        {
+          "type": "text",
+          "content": "Consent Dashboard"
+        },
+        {
+          "type": "text",
+          "content": "Ozone Connect"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "API Hub"
+        },
+        {
+          "type": "text",
+          "content": "API"
+        },
+        {
+          "type": "text",
+          "content": "Swagger specification will be made available for Data Sharing, Service Initiation and Insurance."
+        },
+        {
+          "type": "text",
+          "content": "TPPs do not connect to the Ozone Connect API directly."
+        },
+        {
+          "type": "text",
+          "content": "The Ozone Connect API is an interface on top of the LFI core banking system. LFIs will be responsible for the mapping between their core banking system and the Ozone Connect API specification."
+        },
+        {
+          "type": "text",
+          "content": "LFIs only implement the Ozone Connect API endpoints to support their existing offering i.e:Data Sharing: Accounts, Balance, Transactions etc."
+        },
+        {
+          "type": "text",
+          "content": "Service Initiation: Domestic payment, Standing Orders, International Payments  etc.Insurance: Motor insurance quotes."
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "Data Sharing"
+        },
+        {
+          "type": "text",
+          "content": "Service Initiation"
+        },
+        {
+          "type": "text",
+          "content": "Insurance"
+        },
+        {
+          "type": "text",
+          "content": "Health Check API APIs"
+        },
+        {
+          "type": "text",
+          "content": "LFI & API Hub"
+        },
+        {
+          "type": "text",
+          "content": "LFI & API HUB"
+        },
+        {
+          "type": "text",
+          "content": "API"
+        },
+        {
+          "type": "text",
+          "content": "Swagger specification will be made available."
+        },
+        {
+          "type": "text",
+          "content": "These APIs should be implemented by the LFI so that the API Hub can ensure that the institution's Ozone Connect implementation is up and running and verify to MTLS connectivity"
+        },
+        {
+          "type": "text",
+          "content": "The API Hub will publish the Health Check APIs on the Consent Manager so the LFI can ensure the API Hub implementation is up and running and to verify MTLS connectivity"
+        },
+        {
+          "type": "text",
+          "content": "Integration testing and verifications."
+        },
+        {
+          "type": "text",
+          "content": "Health checks."
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "Service Availability"
+        },
+        {
+          "type": "text",
+          "content": "Health Checks"
+        },
+        {
+          "type": "text",
+          "content": "Integration QA"
+        },
+        {
+          "type": "text",
+          "content": "Consent Event & Action APIs"
+        },
+        {
+          "type": "text",
+          "content": "LFI"
+        },
+        {
+          "type": "text",
+          "content": "API HUB"
+        },
+        {
+          "type": "text",
+          "content": "API"
+        },
+        {
+          "type": "text",
+          "content": "Swagger specification will be made available."
+        },
+        {
+          "type": "text",
+          "content": "Optional. Used by financial institution to get a notification for updated consent."
+        },
+        {
+          "type": "text",
+          "content": "Optional. Consent augmentation for LFIs to add additional information for some use cases."
+        },
+        {
+          "type": "text",
+          "content": "Optional. Consent validation for LFI to apply additional validation before the consent is created."
+        },
+        {
+          "type": "text",
+          "content": "MTLS"
+        },
+        {
+          "type": "text",
+          "content": "Event notifications"
+        },
+        {
+          "type": "text",
+          "content": "Action calls"
+        }
+      ]
+    },
+    {
+      "heading": "4. LFI Integration Guide",
+      "blocks": []
+    },
+    {
+      "heading": "4.1 Introduction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Please refer to the onboarding process documentation for full details of the onboarding process."
+        },
+        {
+          "type": "reference",
+          "text": "onboarding process documentation",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/50790460"
+        }
+      ]
+    },
+    {
+      "heading": "4.2 Pre-requisites for LFIs Integration with the API Hub",
+      "blocks": []
+    },
+    {
+      "heading": "Pre-production:",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PTC needs to be set up and able to access the OFTF Sandbox"
+        },
+        {
+          "type": "text",
+          "content": "PTC needs register themselves as a user of Nebras Service Desk - see Nebras Interaction Guide: https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177"
+        },
+        {
+          "type": "text",
+          "content": "PTC needs to raise a ticket on the Nebras Service Desk requesting to initiate the API Hub onboarding process for pre-production."
+        },
+        {
+          "type": "text",
+          "content": "Once a ticket has been raised by the LFI, Nebras will create the following on behalf of the PTC:"
+        },
+        {
+          "type": "text",
+          "content": "Pre-requisites Questionnaire"
+        },
+        {
+          "type": "text",
+          "content": "Application Layer Authentication Questionnaire"
+        },
+        {
+          "type": "text",
+          "content": "Pre-production Environment specific configuration form"
+        },
+        {
+          "type": "text",
+          "content": "Postman collection form"
+        }
+      ]
+    },
+    {
+      "heading": "Production:",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "PTC needs to be set up and able to access the OFTF Production."
+        },
+        {
+          "type": "text",
+          "content": "PTC needs register themselves as a user (if the PTC is different for production) of Nebras Service Desk - see Nebras Interaction Guide: https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177"
+        },
+        {
+          "type": "text",
+          "content": "PTC needs to raise a ticket on the Nebras Service Desk requesting to initiate the API Hub onboarding process for production."
+        },
+        {
+          "type": "text",
+          "content": "Once a ticket has been raised by the LFI, Nebras will create the following on behalf of the PTC:"
+        },
+        {
+          "type": "text",
+          "content": "Production Environment specific configuration form"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "See Questionnaires and Configuration Guides section of the API Hub Documentation for samples of these forms. https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201/Questionnaires+and+Configuration+Guides?atlOrigin=eyJpIjoiMWRmYTQwZGM2NzU3NDNiZjhhODMyMTRlMjBlZTFjOTAiLCJwIjoiYyJ9"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201/Questionnaires+and+Configuration+Guides?atlOrigin=eyJpIjoiMWRmYTQwZGM2NzU3NDNiZjhhODMyMTRlMjBlZTFjOTAiLCJwIjoiYyJ9",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201/Questionnaires+and+Configuration+Guides?atlOrigin=eyJpIjoiMWRmYTQwZGM2NzU3NDNiZjhhODMyMTRlMjBlZTFjOTAiLCJwIjoiYyJ9"
+        }
+      ]
+    },
+    {
+      "heading": "4.3 LFI Responsibilities",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "In summary, LFIs need to do three things:"
+        },
+        {
+          "type": "text",
+          "content": "Provide a connection from their own Pre-Production and Production systems into the API Hub’s Pre-Production and Production environments. These connections will be secured using MTLS."
+        },
+        {
+          "type": "text",
+          "content": "Build an integration into the API Hub based on the Ozone Connect API specification."
+        },
+        {
+          "type": "text",
+          "content": "Adapt their own existing web and mobile apps to:"
+        },
+        {
+          "type": "text",
+          "content": "accept a redirection from the User into their web/mobile app."
+        },
+        {
+          "type": "text",
+          "content": "provide consent authorisation screen(s) to enable the User to authorise each relevant API request."
+        },
+        {
+          "type": "text",
+          "content": "provide a consent dashboard to allow Users to view or revoke consents."
+        }
+      ]
+    },
+    {
+      "heading": "4.4 LFI and API Hub Integration Lifecycle",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "LFI and Ozone each deploy environment infrastructure for Pre-Production and Production."
+        },
+        {
+          "type": "text",
+          "content": "LFI creates certificates using the OFTF - please refer https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518/Keys+CSRs+Certificates?atlOrigin=eyJpIjoiOTM4ODAwMDczNGZkNGMxNWI5ODE2MGFmMmRiOGVkNjAiLCJwIjoiYyJ9"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518/Keys+CSRs+Certificates?atlOrigin=eyJpIjoiOTM4ODAwMDczNGZkNGMxNWI5ODE2MGFmMmRiOGVkNjAiLCJwIjoiYyJ9",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518/Keys+CSRs+Certificates?atlOrigin=eyJpIjoiOTM4ODAwMDczNGZkNGMxNWI5ODE2MGFmMmRiOGVkNjAiLCJwIjoiYyJ9"
+        },
+        {
+          "type": "text",
+          "content": "LFI and Ozone verifies MTLS connectivity in both directions:"
+        },
+        {
+          "type": "text",
+          "content": "LFI to the Consent Manager and Authorisation server health endpoints"
+        },
+        {
+          "type": "text",
+          "content": "Ozone to the LFI Ozone Connect server."
+        },
+        {
+          "type": "text",
+          "content": "LFI builds the Consent Authorisation flows by adapting their existing mobile and/or web apps."
+        },
+        {
+          "type": "text",
+          "content": "LFI builds the Ozone Connect API integrated with their Core Banking systems."
+        },
+        {
+          "type": "text",
+          "content": "Testing, CX certification."
+        },
+        {
+          "type": "text",
+          "content": "Go live."
+        }
+      ]
+    },
+    {
+      "heading": "4.5 API Hub User Guide",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The API Hub Software Development Kit (SDK) will include:"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/124321883"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/124321883",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/124321883"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362297"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362297",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362297"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362592"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362592",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362592"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362612"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362612",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362612"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362658"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362658",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362658"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362783"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362783",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362783"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362713"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362713",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362713"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362913"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362913",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362913"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363013"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363013",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363013"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363466"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363466",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363466"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363549"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363549",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363549"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452364188"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452364188",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452364188"
+        },
+        {
+          "type": "text",
+          "content": "Additionally the Open Finance Standards will define the required UX for Consent Authorisation including:"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151848297"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151848297",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151848297"
+        },
+        {
+          "type": "text",
+          "content": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151850918"
+        },
+        {
+          "type": "reference",
+          "text": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151850918",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151850918"
+        }
+      ]
+    },
+    {
+      "heading": "4.6 Support for LFIs",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "For support, please refer to the Nebras Interaction Guide."
+        },
+        {
+          "type": "reference",
+          "text": "Nebras Interaction Guide.",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "© Ozone Financial Technology Limited 2024-2025\nOzone Non Commercial Software EULA"
+        }
+      ]
+    }
+  ]
+}

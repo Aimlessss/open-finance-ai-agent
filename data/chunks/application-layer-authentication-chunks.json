@@ -1,0 +1,314 @@
+[
+  {
+    "text": "1.\n                                                                                                                Introduction: The OFP provides a variety of methods for authenticating the interface between LFIs and OFP at the application layer.",
+    "metadata": {
+      "section": "1.\n                                                                                                                Introduction",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "1.\n                                                                                                                Introduction: This document provides an overview of the options available, the configurations that have to be agreed and the implementation that LFIs would have to carry out for the selected option.",
+    "metadata": {
+      "section": "1.\n                                                                                                                Introduction",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off: In its simplest implementation, Application Layer Authentication can be switched off.",
+    "metadata": {
+      "section": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off: This is the “do nothing” alternative and hence the easiest to implement.",
+    "metadata": {
+      "section": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off: API calls are not authenticated and the integration relies on the integrity of the underlying mutual TLS mechanism in and by itself.",
+    "metadata": {
+      "section": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off: The main drawback of this approach is the lack of defense-in-depth by relying on a single layer mechanism for authentication.",
+    "metadata": {
+      "section": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off: This setting can be applied in both directions",
+    "metadata": {
+      "section": "2.\n                                                                                                                Application\n                                                                                                                Layer\n                                                                                                                Authentication\n                                                                                                                Switched\n                                                                                                                Off",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Key: API Keys are the most rudimentary form of access tokens. This is a shared secret that is used between the LFI and the OFP.",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Key",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Key: Generally, shared secrets are not a strong security mechanism and provide limited security benefit. However, this may be appropriate to use as a starting point for LFIs or for LFIs that use a pre-existing API Gateway that enforces the use of an API Key.",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Key",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Key: The use of an API Key is only supported for Ozone Connect (ie in calls made from the OFP to the LFI)",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Key",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Key: The Consent Manager and Authorisation Server APIs do not support the use of API keys.",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Key",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Key: Operationally, the OFP supports the use of API Keys with a validity of 12 months or more. Key rotation is supported annually.",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Key",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: The OFP supports the use of an access token obtained through an OIDC client credentials grant",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: The OFP acts as a relying party (client) to an authorisation server managed by the LFI.",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: This is a fairly secure mechanism in general, and its strength can be increased by using the measures specified by implementing a FAPI profile.",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: The downside of this mechanism is that it would require the LFI to maintain its own authorisation server. Additionally, this may result in a small drop in performance as the OFP has to make an additional API call to the LFI",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: The use of Client Credentials Grant is only supported for Ozone Connect (ie in calls made from the OFP to the LFI)",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: The Consent Manager and Authorisation Server APIs do not support the use of a Client Credentials Grant.",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: Where a client_secret is used to obtain the access token, the client_secret must have a validity of 12 months or more. Secret rotation is supported annually.",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant: scope values are set during onboarding, based on LFI requirements.",
+    "metadata": {
+      "section": "4.\n                                                                                                                Client\n                                                                                                                Credentials\n                                                                                                                Grant",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: JWT based Authentication or JWT Auth as we often call it is a Ozone standard for secure and efficient application layer authentication.",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: In this approach, the requestor creates a token using a private key and a set of well-defined claims. The receiver verifies the token by verifying the signature using the corresponding public key.",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: The approach offers the advantages that:",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: the tokens are generated using PS256 - a secure assymetric algorithm that does not rely on shared secrets",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: Additional infrastructure setup is not required",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: The keys utilise standard JWS and JWKS which is widely supported in many programming languages",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: In the CBUAE context, the signing keys that are used are generated and managed by the OFTF",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: Key rotation is managed by the sending party. The receiving party uses a JWKS for verifying the JWS. The sender can rotate keys as often as they please!",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: The sender can decide on the validity period of the token based on their security posture",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: The standard specifies claims that bind the token to certificates with a specific OU and DN in the underlying mutual TLS layer.",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: The disadvantage of the approach is that this is based on a proprietry standard and LFIs have to develop their own implementation for creating and validating jwt auth tokens.",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. JWT\n                                                                                                                Auth: The use of jwt auth is supported by Ozone Connect, Consent Manager and Authorisation Server APIs",
+    "metadata": {
+      "section": "5. JWT\n                                                                                                                Auth",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: As a further security mechanism, the OFH allows the use of a service initiation access token.",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: The LFI may set an access token for each service initiation consent. When the OFP calls Ozone Connect to initiate the service (e.g. to make a payment), the OFP will include the specified service initiation token in the authorization header for that specific API call.",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: The LFI may chose to rotate the token by patching the consent at any point of time.",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: The use of a Service Initiation Token is only supported on service initiation calls to Ozone Connect.",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: This feature may be used in conjunction with any of the other mechanisms listed above as an override.",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: ",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  },
+  {
+    "text": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token: © Ozone Financial Technology Limited 2024-2025 Ozone Non Commercial Software EULA",
+    "metadata": {
+      "section": "6.\n                                                                                                                Service\n                                                                                                                Initiation\n                                                                                                                Token",
+      "doc": "Application Layer Authentication",
+      "type": "text"
+    }
+  }
+]

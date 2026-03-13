@@ -1,0 +1,22 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "ai-agent-for-lfis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.45.0",
+    "@google/generative-ai": "^0.24.1",
+    "@qdrant/js-client-rest": "^1.17.0",
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "fs": "^0.0.1-security",
+    "openai": "^6.27.0",
+    "qdrant-client": "^0.0.1"
+  }
+}

@@ -1,0 +1,850 @@
+[
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains table: Environment | Domain | Example DNS Name",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Environment",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Domain",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Example DNS Name",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains table: Environment | Domain | Example DNS Name",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains table: Production | *.[LFI Code].apihub.openfinance.ae | *.xxxxyy.apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains table: Pre-Production | *.[LIF Code].preprod.apihub.openfinance.ae | *.xxxxyy.preprod.apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains table: Sandbox | *.altareq1.apihub.openfinance.ae | ",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Environment",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Domain",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Example DNS Name",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Production",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: *.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: *.xxxxyy.apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Pre-Production",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: *.[LIF Code].preprod.apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: *.xxxxyy.preprod.apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: Sandbox",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: *.altareq1.apihub.openfinance.ae",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains: ",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Platform\n                                                                                                                domains",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: The API Hub will make the following domains available for Pre-production and Production.",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Pre-production environments are not accessible to TPPs and should only be used for testing between the API Hub and the LFI.",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: Server Name | Example DNS Name | Description | Security | Provider | Consumer",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Server Name",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Example DNS Name",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Description",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Security",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Provider",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Consumer",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: Server Name | Example DNS Name | Description | Security | Provider | Consumer",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: admin | admin.[LFI Code].apihub.openfinance.ae | LFI\n                                                                                                                            API\n                                                                                                                            Hub\n                                                                                                                            Admin\n                                                                                                                            portal\n                                                                                                                        \n                                                                                                                        \n                                                                                                                        \n                                                                                                                            \n                                                                                                                                \n                                                                                                                                \n                                                                                                                                \n                                                                                                                                \n                                                                                                                                    Open \n                                                                                                                                    \n                                                                                                                                        \n                                                                                                                                            \n                                                                                                                                                \n                                                                                                                                            \n                                                                                                                                            \n                                                                                                                                                \n                                                                                                                                            \n                                                                                                                                        \n                                                                                                                                    \n                                                                                                                                    \n                                                                                                                                        !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"26431b17-31b1-4e69-8fd4-14f370349813-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/26431b17-31b1-4e69-8fd4-14f370349813/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/26431b17-31b1-4e69-8fd4-14f370349813/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/26431b17-31b1-4e69-8fd4-14f370349813/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6}); | TLS, SSO | API Hub | LFI",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: hh | hh.[LFI Code].apihub.openfinance.ae | Headless Heimdall APIOpen !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"508bdf29-407a-41b6-99bb-15719f095bda-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/508bdf29-407a-41b6-99bb-15719f095bda/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/508bdf29-407a-41b6-99bb-15719f095bda/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/508bdf29-407a-41b6-99bb-15719f095bda/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6}); | MTLSJWT Auth (optional) | API Hub | LFI",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: cm | cm.[LFI Code].apihub.openfinance.ae | Consent Manager API Open !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"f6b42856-7b98-4b96-a105-70880ea3507d-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/f6b42856-7b98-4b96-a105-70880ea3507d/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/f6b42856-7b98-4b96-a105-70880ea3507d/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/f6b42856-7b98-4b96-a105-70880ea3507d/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6}); | MTLSJWT Auth (optional) | API Hub | LFI",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: auth1 | auth1.[LFI Code].apihub.openfinance.ae | OpenID connect discovery serverOpen !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"5f0bce16-e56a-4490-be27-d573c24de302-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/5f0bce16-e56a-4490-be27-d573c24de302/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/5f0bce16-e56a-4490-be27-d573c24de302/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/5f0bce16-e56a-4490-be27-d573c24de302/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6}); | TLS | API Hub | TPPs",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: rs1 | rs1.[LFI Code].apihub.openfinance.ae | Resource serverOpen !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"6040a312-f810-4b82-af57-7582462e5380-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/6040a312-f810-4b82-af57-7582462e5380/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/6040a312-f810-4b82-af57-7582462e5380/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/6040a312-f810-4b82-af57-7582462e5380/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6}); | MTLS | API Hub | TPPs",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples table: as1 | as1.[LFI Code].apihub.openfinance.ae | Authorization server Open !function(e){var r=document.currentScript,i=window.__MEDIA_INTERNAL=window.__MEDIA_INTERNAL||{},n=i.mediaCardSsr=i.mediaCardSsr||{},o=e.key,t=e.dataURI,d=e.mode,a=e.srcSet,s=e.dimensions,m=e.error,l=e.featureFlags;if(l[\"media-perf-uplift-mutation-fix\"]){var u,c,f=n[o],v=f&&f.mode===d&&(null===(u=f.dimensions)||void 0===u?void 0:u.width)&&(null==s?void 0:s.width)&&f.dimensions.width>s.width,E=v?f.srcSet:a,p=v?f.dataURI:t,w={dataURI:p,dimensions:s,error:m,srcSet:E,loading:\"lazy\",loadPromise:void 0,mode:d},S=null==r||null===(c=r.parentElement)||void 0===c?void 0:c.querySelector(\"img\");if(i.mediaCountSsr=i.mediaCountSsr||0,S){if(l[\"media-perf-lazy-loading-optimisation\"]&&i.mediaCountSsr<e .maxEagerLoadCount){i.mediaCountSsr++,S.removeAttribute(\"loading\"),w.loading=\"\";var g=new PerformanceObserver((function(e){e.getEntries().forEach((function(e){E.includes(e.name)&&(i.performanceEntries=i.performanceEntries||[],i.performanceEntries.push(e),g.disconnect())}))}));g.observe({type:\"resource\"})}p&&(S.src=p),E&&(S.srcset=E),w.loadPromise=new Promise((function(e,r){S.addEventListener(\"load\",(function(){return e()})),S.addEventListener(\"error\",(function(){return r(new Error(\"Failed to load image\"))}))}))}n[o]=v?f:w}else n[o]={dataURI:t,dimensions:s,error:m};null==r||r.remove()}({\"key\":\"94e7cffe-4462-4ded-9b80-02f102aaeb19-contentId-452362441-full-fit\",\"dataURI\":\"https://media-cdn.atlassian.com/file/94e7cffe-4462-4ded-9b80-02f102aaeb19/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150\",\"mode\":\"full-fit\",\"srcSet\":\"https://media-cdn.atlassian.com/file/94e7cffe-4462-4ded-9b80-02f102aaeb19/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=125&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=150 1x, https://media-cdn.atlassian.com/file/94e7cffe-4462-4ded-9b80-02f102aaeb19/image/cdn?allowAnimated=true&client=bc1ef05f-7573-4d07-ac7a-517b3d35b966&collection=contentId-452362441&height=250&max-age=2592000&mode=full-fit&source=mediaCard&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJiYzFlZjA1Zi03NTczLTRkMDctYWM3YS01MTdiM2QzNWI5NjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC00NTIzNjI0NDEiOlsicmVhZCJdfSwiZXhwIjoxNzczMzk1MzQxLCJuYmYiOjE3NzMzOTI0NjEsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZX0.dNR3YrIWkY74Tl8AkOZ9sQJHggvi7dHxeejK-OyXgiU&width=300 2x\",\"dimensions\":{\"width\":150,\"height\":125},\"featureFlags\":{\"media-perf-uplift-mutation-fix\":true,\"media-perf-lazy-loading-optimisation\":true},\"maxEagerLoadCount\":6}); | MTLS | API Hub | TPPs",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Server Name",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Example DNS Name",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Description",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Security",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Provider",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Consumer",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: admin",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: admin.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: LFI API Hub Admin portal",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: TLS, SSO",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: API Hub",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: LFI",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: hh",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: hh.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Headless Heimdall API",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: MTLSJWT Auth (optional)",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: API Hub",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: LFI",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: cm",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: cm.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Consent Manager API",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: MTLSJWT Auth (optional)",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: API Hub",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: LFI",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: auth1",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: auth1.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: OpenID connect discovery server",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: TLS",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: API Hub",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: TPPs",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: rs1",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: rs1.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Resource server",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: MTLS",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: API Hub",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: TPPs",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: as1",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: as1.[LFI Code].apihub.openfinance.ae",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: ",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: Authorization server",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: MTLS",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: API Hub",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples: TPPs",
+    "metadata": {
+      "section": "3. API\n                                                                                                                Hub\n                                                                                                                Service\n                                                                                                                examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples table: Example DNS Name | Description | Security | Provider | Consumer",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Example DNS Name",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Description",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Security",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Provider",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Consumer",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples table: Example DNS Name | Description | Security | Provider | Consumer",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "4. LFI Service examples table: ozoneconnect.lfi-domain.ae | Ozone Connect ServerThis domain will be collected via the API Hub questionnaires | MTLSJWT Auth (optional) | LFI | API Hub",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "4. LFI Service examples table: auth-redirect.lfi-domain.ae | LFI Authorisation URLTPPs will send users here to start the consent authorization journey. This domain will be collected via the API Hub questionnaires | N/A | LFI | TPP",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "table"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Example DNS Name",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Description",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Security",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Provider",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Consumer",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: ozoneconnect.lfi-domain.ae",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: Ozone Connect ServerThis domain will be collected via the API Hub questionnaires",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: MTLSJWT Auth (optional)",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: LFI",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: API Hub",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: auth-redirect.lfi-domain.ae",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: LFI Authorisation URLTPPs will send users here to start the consent authorization journey. This domain will be collected via the API Hub questionnaires",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: N/A",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: LFI",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4. LFI Service examples: TPP",
+    "metadata": {
+      "section": "4. LFI Service examples",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. Network Diagram: ",
+    "metadata": {
+      "section": "5. Network Diagram",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. Network Diagram: ",
+    "metadata": {
+      "section": "5. Network Diagram",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  },
+  {
+    "text": "5. Network Diagram: © Ozone Financial Technology Limited 2024-2025 Ozone Non Commercial Software EULA",
+    "metadata": {
+      "section": "5. Network Diagram",
+      "doc": "API Hub Domains & DNS",
+      "type": "text"
+    }
+  }
+]

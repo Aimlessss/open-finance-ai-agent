@@ -1,0 +1,511 @@
+{
+  "title": "JWT Authorization",
+  "sections": [
+    {
+      "heading": "JWT Authorization",
+      "blocks": []
+    },
+    {
+      "heading": "1.\n                                                                                                                Introduction",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "This\n                                                                                                            document\n                                                                                                            sets out how\n                                                                                                            a requestor\n                                                                                                            should\n                                                                                                            construct a\n                                                                                                            jwt-auth\n                                                                                                            header and\n                                                                                                            how a\n                                                                                                            receiver\n                                                                                                            must\n                                                                                                            validate the\n                                                                                                            header."
+        }
+      ]
+    },
+    {
+      "heading": "2.\n                                                                                                                Requirements\n                                                                                                                for the\n                                                                                                                LFI as\n                                                                                                                the\n                                                                                                                Client\n                                                                                                                (sending\n                                                                                                                a token)",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "These\n                                                                                                            examples are\n                                                                                                            specific to\n                                                                                                            the requests\n                                                                                                            from the LFI\n                                                                                                            to the API\n                                                                                                            Hub CM and\n                                                                                                            HH\n                                                                                                            endpoints."
+        }
+      ]
+    },
+    {
+      "heading": "2.1\n                                                                                                                Publication\n                                                                                                                of\n                                                                                                                signing\n                                                                                                                keys on\n                                                                                                                a JWKS",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                    LFI\n                                                                                                                    must\n                                                                                                                    create\n                                                                                                                    an\n                                                                                                                    Application\n                                                                                                                    in\n                                                                                                                    their\n                                                                                                                    OFTF\n                                                                                                                    Organisation\n                                                                                                                    labelled\n                                                                                                                    C3-hh-cm-client."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                    LFI\n                                                                                                                    must\n                                                                                                                    create\n                                                                                                                    both\n                                                                                                                    the\n                                                                                                                    C3\n                                                                                                                    transport\n                                                                                                                    client\n                                                                                                                    and\n                                                                                                                    Sig4\n                                                                                                                    transport\n                                                                                                                    signing\n                                                                                                                    certificates\n                                                                                                                    in\n                                                                                                                    this\n                                                                                                                    Application\n                                                                                                                    using\n                                                                                                                    code\n                                                                                                                    snippets\n                                                                                                                    provided\n                                                                                                                    in\n                                                                                                                    the\n                                                                                                                    OFTF."
+        },
+        {
+          "type": "text",
+          "content": "The\n                                                                                                                    OFTF\n                                                                                                                    will\n                                                                                                                    create\n                                                                                                                    a\n                                                                                                                    unique\n                                                                                                                    KID\n                                                                                                                    and\n                                                                                                                    host\n                                                                                                                    the\n                                                                                                                    JWKS."
+        },
+        {
+          "type": "text",
+          "content": "When\n                                                                                                                    publishing\n                                                                                                                    a\n                                                                                                                    new\n                                                                                                                    key,\n                                                                                                                    the\n                                                                                                                    LFI\n                                                                                                                    must\n                                                                                                                    wait\n                                                                                                                    for\n                                                                                                                    10\n                                                                                                                    minutes\n                                                                                                                    before\n                                                                                                                    issuing\n                                                                                                                    a\n                                                                                                                    message\n                                                                                                                    with\n                                                                                                                    the\n                                                                                                                    key\n                                                                                                                    (to\n                                                                                                                    allow\n                                                                                                                    the\n                                                                                                                    receiver’s\n                                                                                                                    caches\n                                                                                                                    to\n                                                                                                                    refresh)."
+        },
+        {
+          "type": "text",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "heading": "2.2 Creating the authorisation header",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The LFI must ensure that the machine on which the signature is generated uses NTP to synchronise its clock."
+        },
+        {
+          "type": "text",
+          "content": "The LFI must construct the header and payload for the JWT as specified in JWT Authorization | 3. JWT Auth Claims Reference  ."
+        },
+        {
+          "type": "reference",
+          "text": "JWT Authorization | 3. JWT Auth Claims Reference",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/edit-v2/452362612#3.-JWT-Auth-Claims-Reference"
+        },
+        {
+          "type": "text",
+          "content": "The JWT must be signed  using the PS256 algorithm using a private signing key in the C3-hh-cm-client application."
+        },
+        {
+          "type": "text",
+          "content": "The JWT must be included as a bearer token in the authorization http header."
+        },
+        {
+          "type": "text",
+          "content": "The https request must be made over mutual tls. The C3 client certificate must be used to initiate the mutual tls session, and must have a DN and OU that matches the values placed in the signature."
+        }
+      ]
+    },
+    {
+      "heading": "3. Requirements for the LFI as the Server (receiving a token)",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "These examples are specific to the requests from the API Hub to the LFI Ozone Connect API."
+        }
+      ]
+    },
+    {
+      "heading": "3.1 Verifying the authorisation header",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "The receiver must ensure that the machine on which the signature is verified uses NTP to synchronise its clock."
+        },
+        {
+          "type": "text",
+          "content": "The receiver must ensure that the request was received over a mutual tls connection."
+        },
+        {
+          "type": "text",
+          "content": "The receiver must extract the jwt-auth token from the authorization http header."
+        },
+        {
+          "type": "text",
+          "content": "The JWT must verify the signature on the JWT using the kid specified in the JWS"
+        },
+        {
+          "type": "text",
+          "content": "The JWKS URI is derived from the requestor client certificate subject. The OU and CN values are substituted as follows:"
+        },
+        {
+          "type": "text",
+          "content": "Example requestor client certificate subject CN=ABC, OU=XYZ, O=Organisation Name, C=AE"
+        },
+        {
+          "type": "text",
+          "content": "Template for Sandbox JWKS https://keystore.sandbox.directory.openfinance.ae/${OU}/${CN}/application.jwks"
+        },
+        {
+          "type": "text",
+          "content": "Example JWKS URI: https://keystore.sandbox.directory.openfinance.ae/XYZ/ABC/application.jwks"
+        },
+        {
+          "type": "text",
+          "content": "The receiver may cache the JWKS for up to ten minutes."
+        },
+        {
+          "type": "text",
+          "content": "The receiver must verify each of the claims in the JWT has the expected value specified in JWT Authorization | 3. JWT Auth Claims Reference"
+        },
+        {
+          "type": "reference",
+          "text": "JWT Authorization | 3. JWT Auth Claims Reference",
+          "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/edit-v2/452362612#3.-JWT-Auth-Claims-Reference"
+        }
+      ]
+    },
+    {
+      "heading": "4. JWT Auth Claims Reference",
+      "blocks": []
+    },
+    {
+      "heading": "4.1 Header",
+      "blocks": [
+        {
+          "type": "table",
+          "content": [
+            [
+              "Claim Name",
+              "Expected Value",
+              "Mandatory",
+              "Notes"
+            ],
+            [
+              "alg",
+              "PS256",
+              "Yes",
+              ""
+            ],
+            [
+              "typ",
+              "JOSE",
+              "Yes",
+              ""
+            ],
+            [
+              "cty",
+              "json",
+              "Yes",
+              ""
+            ],
+            [
+              "kid",
+              "The key ID of key-pair used to sign the message as published on the JWKS.",
+              "Yes",
+              "The specification does not support the use of other means of identifying the key as they are not considered to be secure enough (e.g. x5c and x5u are not supported)."
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Claim Name"
+        },
+        {
+          "type": "text",
+          "content": "Expected Value"
+        },
+        {
+          "type": "text",
+          "content": "Mandatory"
+        },
+        {
+          "type": "text",
+          "content": "Notes"
+        },
+        {
+          "type": "text",
+          "content": "alg"
+        },
+        {
+          "type": "text",
+          "content": "PS256"
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "typ"
+        },
+        {
+          "type": "text",
+          "content": "JOSE"
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "cty"
+        },
+        {
+          "type": "text",
+          "content": "json"
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "kid"
+        },
+        {
+          "type": "text",
+          "content": "The key ID of key-pair used to sign the message as published on the JWKS."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": "The specification does not support the use of other means of identifying the key as they are not considered to be secure enough (e.g. x5c and x5u are not supported)."
+        }
+      ]
+    },
+    {
+      "heading": "4.2 Body",
+      "blocks": [
+        {
+          "type": "table",
+          "content": [
+            [
+              "Claim Name",
+              "Expected Value",
+              "Mandatory",
+              "Example value for JWT issued by Ozone",
+              "Notes"
+            ],
+            [
+              "iss",
+              "The organization O in the TLS certificate Subject that was used in the transport layer.",
+              "Yes",
+              "Ozone Financial Technology Limited",
+              "For a certificate with Subject ofCN=ABC, OU=XYZ, O=RAIDIAM SERVICES LIMITED, C=UK,this would be set to RAIDIAM SERVICES LIMITED"
+            ],
+            [
+              "sub",
+              "The organization unit OU in the TLS certificate Subject that was used in the transport layer.",
+              "Yes",
+              "",
+              "For a certificate with Subject of CN=ABC, OU=XYZ, O=RAIDIAM SERVICES LIMITED, C=UK, this would be set to XYZ"
+            ],
+            [
+              "aud",
+              "Identifier for the party receiving the JWT.",
+              "Yes",
+              "",
+              "This must be set to the PROVIDER_ID specified by Ozone during configuration."
+            ],
+            [
+              "exp",
+              "Time when the JWT will expire in UTC seconds since epoch.",
+              "Yes",
+              "30",
+              "We recommend an expiry time of 10-30s.When validating the JWT, allow for a 10s clock skew.The JWT is considered invalid if the current time is greater than this value."
+            ],
+            [
+              "iat",
+              "Time when the JWT was issued in UTC seconds since epoch.",
+              "Yes",
+              "",
+              "When validating the JWT, allow for a 10s clock skew.The JWT is considered invalid if the current time is less than this value."
+            ],
+            [
+              "nbf",
+              "Time before which the JWT is invalid.",
+              "No",
+              "",
+              "When validating the JWT, allow for a 10s clock skew.The JWT is considered invalid if the current time is less than this value (when specified)."
+            ],
+            [
+              "jti",
+              "A unique identifier for the JWT.",
+              "Yes",
+              "",
+              "We recommend that the requestor populates this value with a uuidv4. This increases the entropy for the JWT."
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "content": "Claim Name"
+        },
+        {
+          "type": "text",
+          "content": "Expected Value"
+        },
+        {
+          "type": "text",
+          "content": "Mandatory"
+        },
+        {
+          "type": "text",
+          "content": "Example value for JWT issued by Ozone"
+        },
+        {
+          "type": "text",
+          "content": "Notes"
+        },
+        {
+          "type": "text",
+          "content": "iss"
+        },
+        {
+          "type": "text",
+          "content": "The organization O in the TLS certificate Subject that was used in the transport layer."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": "Ozone Financial Technology Limited"
+        },
+        {
+          "type": "text",
+          "content": "For a certificate with Subject ofCN=ABC, OU=XYZ, O=RAIDIAM SERVICES LIMITED, C=UK,this would be set to RAIDIAM SERVICES LIMITED"
+        },
+        {
+          "type": "text",
+          "content": "sub"
+        },
+        {
+          "type": "text",
+          "content": "The organization unit OU in the TLS certificate Subject that was used in the transport layer."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "For a certificate with Subject of CN=ABC, OU=XYZ, O=RAIDIAM SERVICES LIMITED, C=UK, this would be set to XYZ"
+        },
+        {
+          "type": "text",
+          "content": "aud"
+        },
+        {
+          "type": "text",
+          "content": "Identifier for the party receiving the JWT."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "This must be set to the PROVIDER_ID specified by Ozone during configuration."
+        },
+        {
+          "type": "text",
+          "content": "exp"
+        },
+        {
+          "type": "text",
+          "content": "Time when the JWT will expire in UTC seconds since epoch."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": "30"
+        },
+        {
+          "type": "text",
+          "content": "We recommend an expiry time of 10-30s."
+        },
+        {
+          "type": "text",
+          "content": "When validating the JWT, allow for a 10s clock skew."
+        },
+        {
+          "type": "text",
+          "content": "The JWT is considered invalid if the current time is greater than this value."
+        },
+        {
+          "type": "text",
+          "content": "iat"
+        },
+        {
+          "type": "text",
+          "content": "Time when the JWT was issued in UTC seconds since epoch."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "When validating the JWT, allow for a 10s clock skew."
+        },
+        {
+          "type": "text",
+          "content": "The JWT is considered invalid if the current time is less than this value."
+        },
+        {
+          "type": "text",
+          "content": "nbf"
+        },
+        {
+          "type": "text",
+          "content": "Time before which the JWT is invalid."
+        },
+        {
+          "type": "text",
+          "content": "No"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "When validating the JWT, allow for a 10s clock skew."
+        },
+        {
+          "type": "text",
+          "content": "The JWT is considered invalid if the current time is less than this value (when specified)."
+        },
+        {
+          "type": "text",
+          "content": "jti"
+        },
+        {
+          "type": "text",
+          "content": "A unique identifier for the JWT."
+        },
+        {
+          "type": "text",
+          "content": "Yes"
+        },
+        {
+          "type": "text",
+          "content": ""
+        },
+        {
+          "type": "text",
+          "content": "We recommend that the requestor populates this value with a uuidv4. This increases the entropy for the JWT."
+        },
+        {
+          "type": "text",
+          "content": "© Ozone Financial Technology Limited 2024-2025\nOzone Non Commercial Software EULA"
+        }
+      ]
+    }
+  ]
+}
