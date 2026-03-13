@@ -10,7 +10,7 @@ const genAI = new GoogleGenerativeAI(key);
 
 async function ask(question) {
   // 1. USE THE EMBEDDING MODEL
-const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
+  const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
 
   try {
     const embed = await embedModel.embedContent(question);
@@ -23,24 +23,38 @@ const embedModel = genAI.getGenerativeModel({ model: "gemini-embedding-001" });
     });
 
     const context = results.map(r => r.payload.text).join("\n\n");
+    console.log("\nRetrieved Context:\n");
+
+    results.forEach((r, i) => {
+      console.log(`Result ${i + 1} (score ${r.score})`);
+      console.log(r.payload.text);
+      console.log("\n-------------------\n");
+    });
 
     // 3. USE A GENERATIVE MODEL (The fix is here!)
     // Changed from gemini-embedding-2-preview to gemini-1.5-flash
-const generativeModel = genAI.getGenerativeModel({ model: "models/gemini-2.5-flash" });
+    const generativeModel = genAI.getGenerativeModel({ model: "models/gemini-2.5-flash" });
 
     const prompt = `
-      Answer the question using the documentation below. 
+  You are an assistant that answers questions using API Hub documentation.
 
-      Documentation:
-      ${context}
+  Use the context below to answer the question clearly and directly.
 
-      Question:
-      ${question}
-    `;
+  If the answer is not in the context, say:
+  "I could not find the answer in the documentation."
+
+  Context:
+  ${context}
+
+  Question:
+  ${question}
+
+  Answer in clear technical language.
+  `;
 
     const result = await generativeModel.generateContent(prompt);
     const response = await result.response;
-    
+
     console.log("\nAnswer:\n");
     console.log(response.text());
 

@@ -1,12 +1,11 @@
 import fs from "fs";
 import * as cheerio from "cheerio";
 import path from "path";
-import { arrayStrings } from "../ai-src/list-models.js";
 
 export function commonParser() {
 
   const filePath = path.resolve(
-    "../../data/unfiltered_data/api-hub-doc-v8/lfi-integration/key-csr-and-certs.html"
+    "../../../data/unfiltered_data/api-hub-doc-v8/lfi-integration/integration-overview.html"
   );
 
   const html = fs.readFileSync(filePath, "utf8");
@@ -19,7 +18,7 @@ export function commonParser() {
 
   let currentSection = null;
 
-  $("h1, h2, h3, p, table, iframe, a").each((i, el) => {
+  $("h1, h2, h3, p, li, table, iframe, a").each((i, el) => {
     const tag = el.tagName;
 
     if (tag === "h1" || tag === "h2" || tag === "h3") {
@@ -76,11 +75,18 @@ export function commonParser() {
         });
       }
     }
+
+    else if (tag === "li" && currentSection) {
+      currentSection.blocks.push({
+        type: "text",
+        content: $(el).text().trim()
+      });
+    }
   });
 
   /* create output directory */
 
-  const outputDir = path.resolve("../../data/filtered_data/api-hub-doc-v8/lfi-integration");
+  const outputDir = path.resolve("../../../data/filtered_data/api-hub-doc-v8/lfi-integration");
 
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
@@ -89,7 +95,7 @@ export function commonParser() {
   /* write JSON */
 
   const outputPath = path.resolve(
-    "../../data/filtered_data/api-hub-doc-v8/lfi-integration/key-csr-and-certs.json"
+    "../../../data/filtered_data/api-hub-doc-v8/lfi-integration/integration-overview.json"
   );
 
   fs.writeFileSync(outputPath, JSON.stringify(doc, null, 2));

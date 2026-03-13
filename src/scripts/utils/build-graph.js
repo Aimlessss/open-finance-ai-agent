@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const docsDir = path.resolve("../../data/filtered_data");
-const outputPath = path.resolve("../../data/graph/key-csr-and-certs-doc-graph.json");
+const docsDir = path.resolve("../../../data/filtered_data");
+const outputPath = path.resolve("../../../data/graph/integration-overview-doc-graph.json");
 const BASE_URL = "https://openfinanceuae.atlassian.net";
 
 const graph = {};

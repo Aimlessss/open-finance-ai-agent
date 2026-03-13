@@ -59,7 +59,7 @@ function createChunks(doc) {
 function chunkDocument(fileName) {
 
   const filePath = path.resolve(
-    "../../data/filtered_data/api-hub-doc-v8/lfi-integration/" + fileName
+    "../../../data/filtered_data/api-hub-doc-v8/lfi-integration/" + fileName
   );
 
   if (!fs.existsSync(filePath)) {
@@ -83,4 +83,4 @@ function chunkDocument(fileName) {
   console.log("Chunks created:", outputPath, "|", chunks.length);
 }
 
-chunkDocument("key-csr-and-certs.json");
+chunkDocument("integration-overview.json");
