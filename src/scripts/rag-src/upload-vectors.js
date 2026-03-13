@@ -11,12 +11,12 @@ const embeddings = JSON.parse(
 
 async function upload() {
 
-  await client.createCollection("api_docs", {
-    vectors: {
-      size: embeddings[0].embedding.length,
-      distance: "Cosine"
-    }
-  });
+  // await client.createCollection("api_docs", {
+  //   vectors: {
+  //     size: embeddings[0].embedding.length,
+  //     distance: "Cosine"
+  //   }
+  // });
 
   const points = embeddings.map((item, i) => ({
     id: i,
