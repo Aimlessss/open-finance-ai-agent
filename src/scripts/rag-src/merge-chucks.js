@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const chunkDir = "../../../data/chunks";
+const chunkDir = path.resolve("../../../data/chunks");
 
 const files = fs.readdirSync(chunkDir);
 
@@ -20,7 +20,7 @@ files.forEach(file => {
 });
 
 fs.writeFileSync(
-  "../../data/all-chunks.json",
+  "../../../data/all-chunks.json",
   JSON.stringify(allChunks, null, 2)
 );
 

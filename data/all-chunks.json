@@ -1160,6 +1160,142 @@
     }
   },
   {
+    "text": "Integration Overview: 1 1. Introduction",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 2 2. Open Finance Authorisation Flow",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 3 3. The API Hub 3.1 3.1 API Hub Network Diagram 3.2 3.2 Infrastructure 3.3 3.3 Role of the API Hub 3.4 3.4 Sequence Diagrams 3.5 3.5 Key API Hub Components",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 3.1 3.1 API Hub Network Diagram",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 3.2 3.2 Infrastructure",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 3.3 3.3 Role of the API Hub",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 3.4 3.4 Sequence Diagrams",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 3.5 3.5 Key API Hub Components",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4 4. LFI Integration Guide 4.1 4.1 Introduction 4.2 4.2 Pre-requisites for LFIs Integration with the API Hub 4.2.1 Pre-production: 4.2.2 Production: 4.3 4.3 LFI Responsibilities 4.4 4.4 LFI and API Hub Integration Lifecycle 4.5 4.5 API Hub User Guide 4.6 4.6 Support for LFIs",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.1 4.1 Introduction",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.2 4.2 Pre-requisites for LFIs Integration with the API Hub 4.2.1 Pre-production: 4.2.2 Production:",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.2.1 Pre-production:",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.2.2 Production:",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.3 4.3 LFI Responsibilities",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.4 4.4 LFI and API Hub Integration Lifecycle",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.5 4.5 API Hub User Guide",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Integration Overview: 4.6 4.6 Support for LFIs",
+    "metadata": {
+      "section": "Integration Overview",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "1.\n                                                                                                                Introduction: This document describes the different components involved in delivering the integration between the API Hub and a LFI. The goal is to give a clear picture of which components exist, how they are used and what is expected to be delivered by each party.",
     "metadata": {
       "section": "1.\n                                                                                                                Introduction",
@@ -1192,7 +1328,31 @@
     }
   },
   {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: A User will initiate a consent from a TPP's mobile or web app.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The User will be redirected to the LFI's mobile or web app to authorise the consent. The LFI needs to adapt their mobile and/or web app to receive the redirect and parameters passed over from the TPP. The LFI will use the API Hub Authorisation Server to verify the request and the parameters.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The User will be redirected to the LFI's mobile or web app to authorise the consent.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The LFI needs to adapt their mobile and/or web app to receive the redirect and parameters passed over from the TPP.",
     "metadata": {
       "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
       "doc": "Integration Overview",
@@ -1216,7 +1376,31 @@
     }
   },
   {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The LFI will use the API Hub Authorisation Server to verify the request and the parameters.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The User will go through SCA (Strong Customer Authentication), review the consent, and authorise/reject it. The LFI needs to adapt their mobile and/or web app to display the consent authorisation screens. Each consent type will have different information to display to the user. All screens and the required UX guideline will be provided as part of the Open Finance Standards. The LFI will use the Consent Manager and the Authorisation Server to communicate the outcome of the consent authorisation. The User will be redirected back to the TPP's mobile or web app. The API Hub will generate the redirect url & access token.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The User will go through SCA (Strong Customer Authentication), review the consent, and authorise/reject it.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The LFI needs to adapt their mobile and/or web app to display the consent authorisation screens.",
     "metadata": {
       "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
       "doc": "Integration Overview",
@@ -1240,7 +1424,31 @@
     }
   },
   {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: Each consent type will have different information to display to the user.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: All screens and the required UX guideline will be provided as part of the Open Finance Standards.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: All screens and the required UX guideline will be provided as part of the Open Finance Standards.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The LFI will use the Consent Manager and the Authorisation Server to communicate the outcome of the consent authorisation.",
     "metadata": {
       "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
       "doc": "Integration Overview",
@@ -1264,6 +1472,14 @@
     }
   },
   {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The User will be redirected back to the TPP's mobile or web app.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The API Hub will generate the redirect url & access token.",
     "metadata": {
       "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
@@ -1272,7 +1488,31 @@
     }
   },
   {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The API Hub will generate the redirect url & access token.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The TPP will receive an access token to allow appropriate actions under the conditions of the consent on the User's account(s). The Ozone Connect API will be responsible for serving data for action service initiation.",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The TPP will receive an access token to allow appropriate actions under the conditions of the consent on the User's account(s).",
+    "metadata": {
+      "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow: The Ozone Connect API will be responsible for serving data for action service initiation.",
     "metadata": {
       "section": "2. Open\n                                                                                                                Finance\n                                                                                                                Authorisation\n                                                                                                                Flow",
       "doc": "Integration Overview",
@@ -1352,7 +1592,31 @@
     }
   },
   {
+    "text": "3.3 Role of the API Hub: Provide a single industry sandbox which simulates a single LFI, with rich synthetic data and a postman collection for each API request/response defined in the Open Finance Standard.",
+    "metadata": {
+      "section": "3.3 Role of the API Hub",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.3 Role of the API Hub: Provide each LFI with dedicated Pre-Production and Production API gateways accessible to TPPs.",
+    "metadata": {
+      "section": "3.3 Role of the API Hub",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.3 Role of the API Hub: Provide each LFI with dedicated Pre-Production and Production API gateways accessible to TPPs.",
+    "metadata": {
+      "section": "3.3 Role of the API Hub",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.3 Role of the API Hub: Ensure that the externally facing API adheres strictly to the Open Finance Standard, including the FAPI security profile, data model, and API operations for each endpoint.",
     "metadata": {
       "section": "3.3 Role of the API Hub",
       "doc": "Integration Overview",
@@ -1376,7 +1640,31 @@
     }
   },
   {
+    "text": "3.3 Role of the API Hub: Integrate with the Open Finance Trust Framework (OFTF) to ensure that ONLY licensed TPPs can access the APIs and that they can ONLY access API sets within the scope of their licensed role(s).",
+    "metadata": {
+      "section": "3.3 Role of the API Hub",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.3 Role of the API Hub: Manage the User’s consent, to act as the single source of truth regarding this consent and to ensure that the TPP can only access APIs (for data sharing, service initiation or insurance) within the parameters of this consent.",
+    "metadata": {
+      "section": "3.3 Role of the API Hub",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.3 Role of the API Hub: Manage the User’s consent, to act as the single source of truth regarding this consent and to ensure that the TPP can only access APIs (for data sharing, service initiation or insurance) within the parameters of this consent.",
+    "metadata": {
+      "section": "3.3 Role of the API Hub",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.3 Role of the API Hub: Provide the CBUAE with all required reporting regarding usage, availability and performance.",
     "metadata": {
       "section": "3.3 Role of the API Hub",
       "doc": "Integration Overview",
@@ -1408,12 +1696,28 @@
     }
   },
   {
+    "text": "3.4 Sequence Diagrams: Bank Data Sharing",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.4 Sequence Diagrams reference: Bank Data Sharing",
     "metadata": {
       "section": "3.4 Sequence Diagrams",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "/wiki/spaces/APIHubDocsv8/pages/452363033/Bank+Data+Sharing"
+    }
+  },
+  {
+    "text": "3.4 Sequence Diagrams: Bank Service Initiation - Single Immediate Payment",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -1426,12 +1730,28 @@
     }
   },
   {
+    "text": "3.4 Sequence Diagrams: Bank Service Initiation - Payment Refund",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.4 Sequence Diagrams reference: Bank Service Initiation - Payment Refund",
     "metadata": {
       "section": "3.4 Sequence Diagrams",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "/wiki/spaces/APIHubDocsv8/pages/452363081/Bank+Service+Initiation+-+Payment+Refund"
+    }
+  },
+  {
+    "text": "3.4 Sequence Diagrams: Bank Service Initiation - Multi-Authorization Journey",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -1444,6 +1764,14 @@
     }
   },
   {
+    "text": "3.4 Sequence Diagrams: Insurance Data Sharing",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.4 Sequence Diagrams reference: Insurance Data Sharing",
     "metadata": {
       "section": "3.4 Sequence Diagrams",
@@ -1453,12 +1781,28 @@
     }
   },
   {
+    "text": "3.4 Sequence Diagrams: CAAP - User Registration",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.4 Sequence Diagrams reference: CAAP - User Registration",
     "metadata": {
       "section": "3.4 Sequence Diagrams",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "/wiki/spaces/APIHubDocsv8/pages/452363153/CAAP+-+User+Registration"
+    }
+  },
+  {
+    "text": "3.4 Sequence Diagrams: CAAP - Consent Authorization",
+    "metadata": {
+      "section": "3.4 Sequence Diagrams",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -1487,7 +1831,31 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: The Authorisation Server and Consent Manager is built, deployed and maintained by Ozone. The consumer of these APIs are the LFIs.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: The LFI is expected to build, deploy and maintain screens on their mobile and/or web app to support the Consent Authorisation flow.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: The LFI is expected to build, deploy and maintain screens on their mobile and/or web app to support the Consent Authorisation flow.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: The LFI is expected to build, deploy and maintain the Ozone Connect API for Data Sharing and Service Initiation.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -1711,6 +2079,22 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: Swagger specification will be made available.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Exposes endpoints to the LFI to support:Consent Authorisation.Access token issuing.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: Exposes endpoints to the LFI to support:",
     "metadata": {
       "section": "3.5 Key API Hub Components",
@@ -1720,6 +2104,22 @@
   },
   {
     "text": "3.5 Key API Hub Components: Consent Authorisation.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Consent Authorisation.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Access token issuing.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -1791,7 +2191,31 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: Swagger specification will be made available.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: TPPs do not connect to the consent manager directly.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: TPPs do not connect to the consent manager directly.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Exposes endpoints to the LFI to support:Consent Authorisation.Consent management and reporting.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -1808,6 +2232,22 @@
   },
   {
     "text": "3.5 Key API Hub Components: Consent Authorisation.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Consent Authorisation.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Consent management and reporting.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -1887,6 +2327,22 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: Swagger specification will be made available for Data Sharing, Service Initiation and Insurance.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: TPPs do not connect to the Ozone Connect API directly.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: TPPs do not connect to the Ozone Connect API directly.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
@@ -1896,6 +2352,22 @@
   },
   {
     "text": "3.5 Key API Hub Components: The Ozone Connect API is an interface on top of the LFI core banking system. LFIs will be responsible for the mapping between their core banking system and the Ozone Connect API specification.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: The Ozone Connect API is an interface on top of the LFI core banking system. LFIs will be responsible for the mapping between their core banking system and the Ozone Connect API specification.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: LFIs only implement the Ozone Connect API endpoints to support their existing offering i.e:Data Sharing: Accounts, Balance, Transactions etc.Service Initiation: Domestic payment, Standing Orders, International Payments etc.Insurance: Motor insurance quotes.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -1991,6 +2463,22 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: Swagger specification will be made available.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: These APIs should be implemented by the LFI so that the API Hub can ensure that the institution's Ozone Connect implementation is up and running and verify to MTLS connectivity",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: These APIs should be implemented by the LFI so that the API Hub can ensure that the institution's Ozone Connect implementation is up and running and verify to MTLS connectivity",
     "metadata": {
       "section": "3.5 Key API Hub Components",
@@ -2007,7 +2495,31 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: The API Hub will publish the Health Check APIs on the Consent Manager so the LFI can ensure the API Hub implementation is up and running and to verify MTLS connectivity",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: Integration testing and verifications.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Integration testing and verifications.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Health checks.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -2095,6 +2607,22 @@
     }
   },
   {
+    "text": "3.5 Key API Hub Components: Swagger specification will be made available.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Optional. Used by financial institution to get a notification for updated consent.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "3.5 Key API Hub Components: Optional. Used by financial institution to get a notification for updated consent.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
@@ -2104,6 +2632,22 @@
   },
   {
     "text": "3.5 Key API Hub Components: Optional. Consent augmentation for LFIs to add additional information for some use cases.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Optional. Consent augmentation for LFIs to add additional information for some use cases.",
+    "metadata": {
+      "section": "3.5 Key API Hub Components",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "3.5 Key API Hub Components: Optional. Consent validation for LFI to apply additional validation before the consent is created.",
     "metadata": {
       "section": "3.5 Key API Hub Components",
       "doc": "Integration Overview",
@@ -2168,6 +2712,22 @@
     }
   },
   {
+    "text": "Pre-production:: PTC needs to be set up and able to access the OFTF Sandbox",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Pre-production:: PTC needs register themselves as a user of Nebras Service Desk - see Nebras Interaction Guide: https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "Pre-production:: PTC needs register themselves as a user of Nebras Service Desk - see Nebras Interaction Guide: https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177",
     "metadata": {
       "section": "Pre-production:",
@@ -2182,6 +2742,14 @@
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177"
+    }
+  },
+  {
+    "text": "Pre-production:: PTC needs to raise a ticket on the Nebras Service Desk requesting to initiate the API Hub onboarding process for pre-production.",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2209,7 +2777,31 @@
     }
   },
   {
+    "text": "Pre-production:: Pre-requisites Questionnaire",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "Pre-production:: Application Layer Authentication Questionnaire",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Pre-production:: Application Layer Authentication Questionnaire",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Pre-production:: Pre-production Environment specific configuration form",
     "metadata": {
       "section": "Pre-production:",
       "doc": "Integration Overview",
@@ -2233,7 +2825,31 @@
     }
   },
   {
+    "text": "Pre-production:: Postman collection form",
+    "metadata": {
+      "section": "Pre-production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "Production:: PTC needs to be set up and able to access the OFTF Production.",
+    "metadata": {
+      "section": "Production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Production:: PTC needs to be set up and able to access the OFTF Production.",
+    "metadata": {
+      "section": "Production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Production:: PTC needs register themselves as a user (if the PTC is different for production) of Nebras Service Desk - see Nebras Interaction Guide: https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/232751177",
     "metadata": {
       "section": "Production:",
       "doc": "Integration Overview",
@@ -2266,7 +2882,23 @@
     }
   },
   {
+    "text": "Production:: PTC needs to raise a ticket on the Nebras Service Desk requesting to initiate the API Hub onboarding process for production.",
+    "metadata": {
+      "section": "Production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "Production:: Once a ticket has been raised by the LFI, Nebras will create the following on behalf of the PTC:",
+    "metadata": {
+      "section": "Production:",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "Production:: Production Environment specific configuration form",
     "metadata": {
       "section": "Production:",
       "doc": "Integration Overview",
@@ -2323,7 +2955,31 @@
     }
   },
   {
+    "text": "4.3 LFI Responsibilities: Provide a connection from their own Pre-Production and Production systems into the API Hub’s Pre-Production and Production environments. These connections will be secured using MTLS.",
+    "metadata": {
+      "section": "4.3 LFI Responsibilities",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.3 LFI Responsibilities: Build an integration into the API Hub based on the Ozone Connect API specification.",
+    "metadata": {
+      "section": "4.3 LFI Responsibilities",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.3 LFI Responsibilities: Build an integration into the API Hub based on the Ozone Connect API specification.",
+    "metadata": {
+      "section": "4.3 LFI Responsibilities",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.3 LFI Responsibilities: Adapt their own existing web and mobile apps to: accept a redirection from the User into their web/mobile app.provide consent authorisation screen(s) to enable the User to authorise each relevant API request.provide a consent dashboard to allow Users to view or revoke consents.",
     "metadata": {
       "section": "4.3 LFI Responsibilities",
       "doc": "Integration Overview",
@@ -2347,6 +3003,22 @@
     }
   },
   {
+    "text": "4.3 LFI Responsibilities: accept a redirection from the User into their web/mobile app.",
+    "metadata": {
+      "section": "4.3 LFI Responsibilities",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.3 LFI Responsibilities: provide consent authorisation screen(s) to enable the User to authorise each relevant API request.",
+    "metadata": {
+      "section": "4.3 LFI Responsibilities",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.3 LFI Responsibilities: provide consent authorisation screen(s) to enable the User to authorise each relevant API request.",
     "metadata": {
       "section": "4.3 LFI Responsibilities",
@@ -2363,7 +3035,31 @@
     }
   },
   {
+    "text": "4.3 LFI Responsibilities: provide a consent dashboard to allow Users to view or revoke consents.",
+    "metadata": {
+      "section": "4.3 LFI Responsibilities",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.4 LFI and API Hub Integration Lifecycle: LFI and Ozone each deploy environment infrastructure for Pre-Production and Production.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: LFI and Ozone each deploy environment infrastructure for Pre-Production and Production.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: LFI creates certificates using the OFTF - please refer https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518/Keys+CSRs+Certificates?atlOrigin=eyJpIjoiOTM4ODAwMDczNGZkNGMxNWI5ODE2MGFmMmRiOGVkNjAiLCJwIjoiYyJ9",
     "metadata": {
       "section": "4.4 LFI and API Hub Integration Lifecycle",
       "doc": "Integration Overview",
@@ -2388,7 +3084,23 @@
     }
   },
   {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: LFI and Ozone verifies MTLS connectivity in both directions:LFI to the Consent Manager and Authorisation server health endpointsOzone to the LFI Ozone Connect server.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.4 LFI and API Hub Integration Lifecycle: LFI and Ozone verifies MTLS connectivity in both directions:",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: LFI to the Consent Manager and Authorisation server health endpoints",
     "metadata": {
       "section": "4.4 LFI and API Hub Integration Lifecycle",
       "doc": "Integration Overview",
@@ -2412,7 +3124,31 @@
     }
   },
   {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: Ozone to the LFI Ozone Connect server.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.4 LFI and API Hub Integration Lifecycle: LFI builds the Consent Authorisation flows by adapting their existing mobile and/or web apps.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: LFI builds the Consent Authorisation flows by adapting their existing mobile and/or web apps.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: LFI builds the Ozone Connect API integrated with their Core Banking systems.",
     "metadata": {
       "section": "4.4 LFI and API Hub Integration Lifecycle",
       "doc": "Integration Overview",
@@ -2436,6 +3172,22 @@
     }
   },
   {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: Testing, CX certification.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.4 LFI and API Hub Integration Lifecycle: Go live.",
+    "metadata": {
+      "section": "4.4 LFI and API Hub Integration Lifecycle",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.4 LFI and API Hub Integration Lifecycle: Go live.",
     "metadata": {
       "section": "4.4 LFI and API Hub Integration Lifecycle",
@@ -2445,6 +3197,14 @@
   },
   {
     "text": "4.5 API Hub User Guide: The API Hub Software Development Kit (SDK) will include:",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/OF/pages/124321883",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
@@ -2477,12 +3237,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362297",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362297",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362297"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362518",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2511,6 +3287,14 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362592",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362592",
     "metadata": {
       "section": "4.5 API Hub User Guide",
@@ -2528,12 +3312,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362612",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362612",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362612"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362658https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362783 https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878 https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362713https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678 https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362913 https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2562,12 +3362,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362843"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362783",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2596,12 +3412,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362878"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362713",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2630,12 +3462,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362678"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362913",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2664,12 +3512,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452362748"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363013",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2698,12 +3562,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363201"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363466",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2732,12 +3612,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363549",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363549",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452363549"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/APIHubDocsv8/pages/452364188",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
@@ -2774,12 +3670,28 @@
     }
   },
   {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151848297",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
+    }
+  },
+  {
     "text": "4.5 API Hub User Guide reference: https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151848297",
     "metadata": {
       "section": "4.5 API Hub User Guide",
       "doc": "Integration Overview",
       "type": "reference",
       "url": "https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151848297"
+    }
+  },
+  {
+    "text": "4.5 API Hub User Guide: https://openfinanceuae.atlassian.net/wiki/spaces/standardsv1final/pages/151850918",
+    "metadata": {
+      "section": "4.5 API Hub User Guide",
+      "doc": "Integration Overview",
+      "type": "text"
     }
   },
   {
